@@ -15,7 +15,7 @@
         public string Description { get; set; }
 
         //Date and time at which you can start voting.
-        [Display(Name= "Star Date")]
+        [Display(Name = "Star Date")]
         public DateTime StarDate { get; set; }
 
         //Date and time at which the vote is closed.
