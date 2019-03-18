@@ -1,11 +1,11 @@
 ﻿namespace Voting.Web.Data
 {
-    using Entities;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Entities;
 
-    public class Repository
+    public class Repository : IRepository
     {
         private readonly DataContext context;
 
