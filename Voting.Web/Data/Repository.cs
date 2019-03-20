@@ -45,7 +45,7 @@
             return await this.context.SaveChangesAsync() > 0;
         }
 
-        public bool ProductExists(int id)
+        public bool EventExists(int id)
         {
             return this.context.Events.Any(p => p.Id == id);
         }

@@ -12,7 +12,7 @@
 
         IEnumerable<Event> GetEvents();
 
-        bool ProductExists(int id);
+        bool EventExists(int id);
 
         void RemoveEvent(Event @event);
 
